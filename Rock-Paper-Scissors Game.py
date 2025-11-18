@@ -1,44 +1,4 @@
 
-# import random
-# win_matrix = [['D', 'W', 'L'], ['L', 'D', 'W'], ['W', 'L', 'D']]
-# choice_list = ["Snake", "Water", "Gun"]
-# dict_points = {'Snake': 0, 'Water': 1, 'Gun': 2}
-
-# def play_game():
-#     while True:
-#         player_1 = input("Player1, select your option from (Snake, Water, Gun): ")
-#         if player_1 not in dict_points:
-#             print("Invalid choice. Please choose Snake, Water, or Gun.")
-#             continue
-        
-#         player_2 = random.choice(choice_list)
-#         print(f"System selected: {player_2}")
-
-#         # Get the indices for the choices
-#         player_1_index = dict_points[player_1]
-#         player_2_index = dict_points[player_2]
-
-#         # Determine the result
-#         result = win_matrix[player_1_index][player_2_index]
-
-#         # Print the result
-#         if result == 'D':
-#             print("The game is a draw.")
-#         elif result == 'W':
-#             print("Player 1 wins!")
-#         else:
-#             print("System wins!")
-
-#         play_again = input("Do you want to play again? (yes/no): ").lower()
-#         if play_again != "yes":
-#             break
-
-# play_game()
-
-
-
-
-
 # REAL GAME WITH EXCITEMENT: 
 import random
 def RPS():
@@ -87,3 +47,42 @@ def RPS():
 RPS()
 
 
+
+
+
+
+# import random
+# win_matrix = [['D', 'W', 'L'], ['L', 'D', 'W'], ['W', 'L', 'D']]
+# choice_list = ["Snake", "Water", "Gun"]
+# dict_points = {'Snake': 0, 'Water': 1, 'Gun': 2}
+
+# def play_game():
+#     while True:
+#         player_1 = input("Player1, select your option from (Snake, Water, Gun): ")
+#         if player_1 not in dict_points:
+#             print("Invalid choice. Please choose Snake, Water, or Gun.")
+#             continue
+        
+#         player_2 = random.choice(choice_list)
+#         print(f"System selected: {player_2}")
+
+#         # Get the indices for the choices
+#         player_1_index = dict_points[player_1]
+#         player_2_index = dict_points[player_2]
+
+#         # Determine the result
+#         result = win_matrix[player_1_index][player_2_index]
+
+#         # Print the result
+#         if result == 'D':
+#             print("The game is a draw.")
+#         elif result == 'W':
+#             print("Player 1 wins!")
+#         else:
+#             print("System wins!")
+
+#         play_again = input("Do you want to play again? (yes/no): ").lower()
+#         if play_again != "yes":
+#             break
+
+# play_game()
